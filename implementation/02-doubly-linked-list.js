@@ -45,7 +45,7 @@ class DoublyLinkedList {
         if (this.length === 1) {
             this.length--;
             this.head = null;
-            return this.oldHead.value;
+            return oldHead.value;
         }
         else if (this.length > 1) {
             let newHead = this.head.next;
