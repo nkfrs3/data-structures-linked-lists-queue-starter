@@ -104,7 +104,7 @@ describe('Queue', () => {
 
     describe('dequeue', () => {
       it('Should not accept any input parameters', () => {
-        expect(queue.dequeue.length).to.equal(0);
+        expect(queue.length).to.equal(0);
       });
 
       it('Should not throw an error when calling dequeue on an empty queue', () => {
